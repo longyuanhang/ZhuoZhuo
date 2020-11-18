@@ -7,8 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <ZhuoZhuo/ZhuoZhuo.h>
 @interface NewWorkTool : NSObject
-
++(instancetype)shareManager;
++(void)getFileDataWithUrl:(NSString *)url Success:(void(^)(NSArray *array))sucess andError:(void(^)(NSError *error))error;
 
 @end
 

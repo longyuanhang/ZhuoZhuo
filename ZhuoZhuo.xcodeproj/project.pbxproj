@@ -21,6 +21,14 @@
 		B939257F2563F83500C33E26 /* MainCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B939257D2563F83500C33E26 /* MainCollectionCell.m */; };
 		B93925802563F83500C33E26 /* MainCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B939257E2563F83500C33E26 /* MainCollectionCell.xib */; };
 		B93925842563FA6300C33E26 /* NewWorkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B93925832563FA6300C33E26 /* NewWorkTool.m */; };
+		B9392589256413FF00C33E26 /* NSString+imageWithBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = B9392588256413FF00C33E26 /* NSString+imageWithBase64.m */; };
+		B939258D2564178C00C33E26 /* ZZImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B939258C2564178C00C33E26 /* ZZImageManager.m */; };
+		B93925972564391500C33E26 /* ZModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B93925962564391500C33E26 /* ZModel.m */; };
+		B939259C25643F2400C33E26 /* NSString+Height.m in Sources */ = {isa = PBXBuildFile; fileRef = B939259B25643F2400C33E26 /* NSString+Height.m */; };
+		B93925A22564B57100C33E26 /* CollectionWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B93925A02564B57000C33E26 /* CollectionWaterfallLayout.m */; };
+		B93925A62564CA3800C33E26 /* UIImageView+ZZManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B93925A52564CA3800C33E26 /* UIImageView+ZZManager.m */; };
+		B93925AC2564CBC800C33E26 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = B93925AB2564CBC800C33E26 /* NSString+MD5.m */; };
+		B93925B02565411500C33E26 /* UIImage+CorePicture.m in Sources */ = {isa = PBXBuildFile; fileRef = B93925AF2565411400C33E26 /* UIImage+CorePicture.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +74,23 @@
 		B939257E2563F83500C33E26 /* MainCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainCollectionCell.xib; sourceTree = "<group>"; };
 		B93925822563FA6300C33E26 /* NewWorkTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewWorkTool.h; sourceTree = "<group>"; };
 		B93925832563FA6300C33E26 /* NewWorkTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewWorkTool.m; sourceTree = "<group>"; };
+		B9392587256413FF00C33E26 /* NSString+imageWithBase64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+imageWithBase64.h"; sourceTree = "<group>"; };
+		B9392588256413FF00C33E26 /* NSString+imageWithBase64.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+imageWithBase64.m"; sourceTree = "<group>"; };
+		B939258B2564178C00C33E26 /* ZZImageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZImageManager.h; sourceTree = "<group>"; };
+		B939258C2564178C00C33E26 /* ZZImageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZImageManager.m; sourceTree = "<group>"; };
+		B93925952564391500C33E26 /* ZModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZModel.h; sourceTree = "<group>"; };
+		B93925962564391500C33E26 /* ZModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZModel.m; sourceTree = "<group>"; };
+		B939259925643E7100C33E26 /* PulicHeaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PulicHeaders.h; sourceTree = "<group>"; };
+		B939259A25643F2400C33E26 /* NSString+Height.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Height.h"; sourceTree = "<group>"; };
+		B939259B25643F2400C33E26 /* NSString+Height.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Height.m"; sourceTree = "<group>"; };
+		B93925A02564B57000C33E26 /* CollectionWaterfallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionWaterfallLayout.m; sourceTree = "<group>"; };
+		B93925A12564B57100C33E26 /* CollectionWaterfallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionWaterfallLayout.h; sourceTree = "<group>"; };
+		B93925A42564CA3800C33E26 /* UIImageView+ZZManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ZZManager.h"; sourceTree = "<group>"; };
+		B93925A52564CA3800C33E26 /* UIImageView+ZZManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ZZManager.m"; sourceTree = "<group>"; };
+		B93925AA2564CBC800C33E26 /* NSString+MD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		B93925AB2564CBC800C33E26 /* NSString+MD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		B93925AE2565411400C33E26 /* UIImage+CorePicture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+CorePicture.h"; sourceTree = "<group>"; };
+		B93925AF2565411400C33E26 /* UIImage+CorePicture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CorePicture.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +207,10 @@
 		B939256F2563F4C100C33E26 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				B93925952564391500C33E26 /* ZModel.h */,
+				B93925962564391500C33E26 /* ZModel.m */,
+				B93925A12564B57100C33E26 /* CollectionWaterfallLayout.h */,
+				B93925A02564B57000C33E26 /* CollectionWaterfallLayout.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -199,6 +228,9 @@
 		B93925712563F4DB00C33E26 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				B939259825643E4B00C33E26 /* PulicHeaders */,
+				B939258A2564174B00C33E26 /* ZZImageManager(图片下载) */,
+				B9392586256413C500C33E26 /* Category */,
 				B93925812563FA1F00C33E26 /* NetworkTool */,
 			);
 			path = Tool;
@@ -219,6 +251,40 @@
 				B93925832563FA6300C33E26 /* NewWorkTool.m */,
 			);
 			path = NetworkTool;
+			sourceTree = "<group>";
+		};
+		B9392586256413C500C33E26 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B9392587256413FF00C33E26 /* NSString+imageWithBase64.h */,
+				B9392588256413FF00C33E26 /* NSString+imageWithBase64.m */,
+				B939259A25643F2400C33E26 /* NSString+Height.h */,
+				B939259B25643F2400C33E26 /* NSString+Height.m */,
+				B93925AA2564CBC800C33E26 /* NSString+MD5.h */,
+				B93925AB2564CBC800C33E26 /* NSString+MD5.m */,
+				B93925AE2565411400C33E26 /* UIImage+CorePicture.h */,
+				B93925AF2565411400C33E26 /* UIImage+CorePicture.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		B939258A2564174B00C33E26 /* ZZImageManager(图片下载) */ = {
+			isa = PBXGroup;
+			children = (
+				B939258B2564178C00C33E26 /* ZZImageManager.h */,
+				B939258C2564178C00C33E26 /* ZZImageManager.m */,
+				B93925A42564CA3800C33E26 /* UIImageView+ZZManager.h */,
+				B93925A52564CA3800C33E26 /* UIImageView+ZZManager.m */,
+			);
+			path = "ZZImageManager(图片下载)";
+			sourceTree = "<group>";
+		};
+		B939259825643E4B00C33E26 /* PulicHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				B939259925643E7100C33E26 /* PulicHeaders.h */,
+			);
+			path = PulicHeaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,12 +419,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B93925A62564CA3800C33E26 /* UIImageView+ZZManager.m in Sources */,
 				B939253F2563F3CD00C33E26 /* ViewController.m in Sources */,
 				B93925392563F3CD00C33E26 /* AppDelegate.m in Sources */,
+				B93925B02565411500C33E26 /* UIImage+CorePicture.m in Sources */,
+				B93925A22564B57100C33E26 /* CollectionWaterfallLayout.m in Sources */,
 				B939254A2563F3D200C33E26 /* main.m in Sources */,
 				B93925842563FA6300C33E26 /* NewWorkTool.m in Sources */,
 				B93925752563F59500C33E26 /* MainViewController.m in Sources */,
+				B93925AC2564CBC800C33E26 /* NSString+MD5.m in Sources */,
+				B93925972564391500C33E26 /* ZModel.m in Sources */,
+				B939258D2564178C00C33E26 /* ZZImageManager.m in Sources */,
 				B939257F2563F83500C33E26 /* MainCollectionCell.m in Sources */,
+				B9392589256413FF00C33E26 /* NSString+imageWithBase64.m in Sources */,
+				B939259C25643F2400C33E26 /* NSString+Height.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,18 +603,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W3Q36GRM83;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ZhuoZhuo/Framework",
 				);
 				INFOPLIST_FILE = ZhuoZhuo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wisesoft.ZhuoZhuo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -550,18 +626,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W3Q36GRM83;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ZhuoZhuo/Framework",
 				);
 				INFOPLIST_FILE = ZhuoZhuo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wisesoft.ZhuoZhuo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

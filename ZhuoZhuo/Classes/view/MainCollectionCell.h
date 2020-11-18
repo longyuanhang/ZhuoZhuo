@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ZModel.h"
 
-NS_ASSUME_NONNULL_BEGIN
-
+typedef void(^DeleteBlock)(void);
 @interface MainCollectionCell : UICollectionViewCell
-
+@property (nonatomic,strong)ZModel *zModel;
+@property (nonatomic,copy) DeleteBlock block;
 @end
 
-NS_ASSUME_NONNULL_END
