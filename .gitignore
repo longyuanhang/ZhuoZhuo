@@ -1,0 +1,32 @@
+# Xcode
+build/*
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+profile
+*.moved-aside
+# Desktop Servies
+.DS_Store
+Pods
+WSIMSDK
+WSAppleLib
+firim
+pgyer
+app_wisesoft
+build
+.vscode
+
+SASAC_OA/fastlane/report.xml
+SCAirportOA/fastlane/report.xml
+WuhouGovernment_OA/fastlane/report.xml
+ZigongGovernment_OA/fastlane/report.xml
+SCIC_OA/fastlane/report.xml
+CME_OA/fastlane/report.xml
+
+SRIG_OA
